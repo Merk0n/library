@@ -61,6 +61,7 @@ input {
 
 .main {
   display: flex;
+  flex-direction: column;
   justify-content: center;
 }
 
@@ -85,4 +86,11 @@ footer {
   border-top: #ccc 1px solid;
   display: flex;
   justify-content: center;
+}
+
+.books-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  padding: 20px;
 }
