@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Library</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <dialog id="dialog">
+        <form method="dialog">
+          <label for="title">Title</label>
+          <input type="text" id="title" /> <br />
+          <label for="author">Author</label>
+          <input type="text" id="author" /> <br />
+          <label for="pages">Pages</label>
+          <input type="number" id="pages" /> <br />
+          <label for="read">Read</label>
+          <input type="checkbox" id="read" /><br />
+          <button class="btn" type="submit">ADD</button>
+          <button class="btn" type="submit">Close</button>
+        </form>
+      </dialog>
+    </div>
+
+    <header class="header">
+      <h1>library</h1>
+      <button class="btn">Log in</button>
+    </header>
+    <main class="main">
+      <button class="btn" id="openDialog">+ ADD BOOK</button>
+    </main>
+    <footer class="footer">
+      <p>
+        Copyright &copy
+        <script>
+          document.write(new Date().getFullYear());
+        </script>
+        Merk0n
+      </p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
