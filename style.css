@@ -95,7 +95,25 @@ footer {
 
 .books-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   grid-gap: 20px;
   padding: 20px;
+}
+
+.book-card {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border: 1px #ccc inset;
+}
+
+.book-card > h3 {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.btn-remove {
+  margin: auto;
+  margin-top: 10px;
 }
